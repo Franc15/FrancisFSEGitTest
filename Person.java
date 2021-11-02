@@ -48,5 +48,10 @@ public class Person
 		System.out.println(this.firstName + " " + this.surName);
 	}
 
+	public String toString()
+	{
+		return this.FirstName + " " + this.surName + " " + this.age;
+	}
+
 }
 
