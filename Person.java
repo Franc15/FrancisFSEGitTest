@@ -1,18 +1,21 @@
 public class Person
 {
-	String firstName;
-	String surName;
+	private String firstName;
+	private String surName;
+	private int age;
 
 	public Person()
 	{
 		this.firstName = "DEFAULT";
 		this.surName = "DEFAULT";
+		this.age = 0;
 	}
 
 	public Person(String firstName, String surName)
 	{
 		this.firstName = firstName;
 		this.surName = surName;
+		this.age = 0;
 	}
 
 	public void setFirstName(String newFirstName)
@@ -33,6 +36,11 @@ public class Person
 	public String getSurName()
 	{
 		return this.surName;
+	}
+
+	public int getAge()
+	{
+		return this.age;
 	}
 
 }
