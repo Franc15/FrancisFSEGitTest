@@ -43,5 +43,10 @@ public class Person
 		return this.age;
 	}
 
+	public void printFullName()
+	{
+		System.out.println(this.firstName + " " + this.surName);
+	}
+
 }
 
